@@ -1,0 +1,71 @@
+body {
+	background-color: #996600;
+}
+
+#header {
+	text-align: center;
+	height: 70px;
+	background-color: #996633;
+	margin-top: -20px;
+}
+#leftColumn {
+	width: 80%;
+}
+#rightColumn {
+	width: 20%;
+	float: right;
+	margin-top: -300px;
+	position: fixed;
+	margin-left: 75%;
+}
+.buttons {
+	padding-bottom: 25%;
+	width: 90%;
+	height: 10%;
+	background-color: #CC6600;
+	border-style: solid;
+	border-width: medium;
+	text-align: center;
+	margin-left: 5px;
+	padding-top: 10%;
+}
+.practice {
+	border: solid;
+	width: 100px;
+	height: 100px;
+	box-shadow: 10px 10px 5px #888888;
+}
+@media(min-width: 670px) {
+	#leftColumn {
+		margin-left: 50px;
+	}
+}
+@media(min-width: 750px) {
+	#leftColumn {
+		margin-left: 100px;
+	}
+}
+
+@media(min-width: 1000px) {
+	#leftColumn {
+		margin-left: 200px;
+	}
+}
+@media(min-width: 830px) {
+	#rightColumn {
+		width: 15%;
+	}
+}
+@media(min-width: 80px) and (max-width: 215px) {
+	#rightColumn {
+		margin-top: -300%;
+	}
+}
+@media(min-width: 216px) and (max-width: 312px) {
+	#rightColumn {
+		margin-top: -200%;
+	}
+}
+
+
+
