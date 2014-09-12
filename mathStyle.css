@@ -56,14 +56,24 @@ body {
 		width: 15%;
 	}
 }
-@media(min-width: 80px) and (max-width: 215px) {
+@media(min-width: 80px) and (max-width: 177px) {
 	#rightColumn {
-		margin-top: -500%;
+		margin-top: -400%;
 	}
 }
-@media(min-width: 216px) and (max-width: 312px) {
+@media(min-width: 180px) and (max-width: 200px) {
+	#rightColumn {
+		margin-top: -300%;
+	}
+}
+@media(min-width: 201px) and (max-width: 300px) {
 	#rightColumn {
 		margin-top: -200%;
+	}
+}
+@media(min-width: 310px) and (max-width: 400px) {
+	#rightColumn {
+		margin-top: -100%;
 	}
 }
 
