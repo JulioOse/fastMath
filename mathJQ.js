@@ -23,8 +23,8 @@ $(document).ready(function() {
 	}
 	$('#buttonMulty').click(function() {
 		pageCheck(1);
-		if(screen.width > 300) {
-			$('#rightColumn').css('margin-top', '-300px');
+		if(screen.width < 300) {
+			$('#rightColumn').css('margin-top', '-500px');
 		} else {
 			$('#rightColumn').css('margin-top', '-200%');
 		}
@@ -32,16 +32,16 @@ $(document).ready(function() {
 	});
 	$('#buttonSquare').click(function() {
 		pageCheck(2);
-			if(screen.width > 300) {
-			$('#rightColumn').css('margin-top', '-420px');;
+			if(screen.width < 300) {
+			$('#rightColumn').css('margin-top', '-700px');;
 		} else {
 			$('#rightColumn').css('margin-top', '-200%');
 		}
 	});
 	$('#buttonTrick').click(function() {
 		pageCheck(3);
-				if(screen.width > 300) {
-			$('#rightColumn').css('margin-top', '-600px');;
+			if(screen.width < 300) {
+			$('#rightColumn').css('margin-top', '-800px');;
 		} else {
 			$('#rightColumn').css('margin-top', '-250%');
 		}
