@@ -58,7 +58,7 @@ body {
 }
 @media(min-width: 80px) and (max-width: 215px) {
 	#rightColumn {
-		margin-top: -300%;
+		margin-top: -500%;
 	}
 }
 @media(min-width: 216px) and (max-width: 312px) {
