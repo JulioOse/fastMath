@@ -71,9 +71,9 @@ body {
 		margin-top: -200%;
 	}
 }
-@media(min-width: 310px) and (max-width: 400px) {
+@media(min-width: 301px) and (max-width: 400px) {
 	#rightColumn {
-		margin-top: -100%;
+		margin-top: -150%;
 	}
 }
 
